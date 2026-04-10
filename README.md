@@ -11,8 +11,6 @@ Cursor Skills are reusable `SKILL.md` instruction files that teach the AI agent 
 - [Cursor Resources](#cursor-resources)
 - [Contributing](#contributing)
 
-> **New:** The [Cursor-Native](#cursor-native) skills section covers skills that tap into Cursor's unique agent capabilities — built-in browser, parallel subagents, worktrees, project switching, and CPU profiling.
-
 ---
 
 ## Skills
@@ -37,7 +35,8 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 
 - [`adding-analytics`](resources/adding-analytics/SKILL.md) - Add PostHog event tracking, page views, feature flags, and session replay to any web app.
 - [`adding-feature-flags`](resources/adding-feature-flags/SKILL.md) - Add feature flags for gradual rollouts and A/B testing using PostHog or a simple local implementation.
-- [PostHog/skills](https://github.com/PostHog/skills) - Official PostHog skills for analytics, feature flags, session replay, and LLM analytics.
+- [PostHog LLM Analytics](https://github.com/PostHog/skills/tree/main/skills/posthog/llm-analytics) - Instrument LLM calls with token usage, latency, cost tracking, and model comparison.
+- [PostHog Migrations](https://github.com/PostHog/skills/tree/main/skills/posthog/migrations) - Migrate from other analytics providers (Amplitude, Mixpanel, GA) to PostHog.
 
 ### Error Tracking & Monitoring
 
@@ -52,6 +51,9 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 
 - [`adding-e2e-tests`](resources/adding-e2e-tests/SKILL.md) - Set up Playwright with config, example tests, page objects, and CI integration.
 - [`writing-tests`](resources/writing-tests/SKILL.md) - Analyze existing code and write comprehensive unit and integration tests with proper mocking, edge cases, and assertions.
+- [`python-tdd-with-uv`](resources/python-tdd-with-uv/SKILL.md) - Test-driven development in Python using uv — red-green-refactor cycle with vertical slicing and fast dependency management.
+- [Matt Pocock TDD](https://github.com/mattpocock/skills/tree/main/tdd) - Vertical-slice TDD for AI agents — one test, one implementation, repeat. Prevents over-engineering and speculative tests.
+- [Anthropic Webapp Testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) - Automated browser testing for web apps with screenshot verification and interaction flows.
 
 ### Infrastructure & DevOps
 
@@ -65,9 +67,14 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`reviewing-code`](resources/reviewing-code/SKILL.md) - Thorough code review focused on correctness, maintainability, performance, and best practices.
 - [`auditing-security`](resources/auditing-security/SKILL.md) - Systematic security audit checking for OWASP Top 10 vulnerabilities, secrets exposure, and insecure patterns.
 - [`auditing-performance`](resources/auditing-performance/SKILL.md) - Audit bundle size, rendering, database queries, and Core Web Vitals.
-- [Anthropic Simplify](https://github.com/anthropics/skills) - Reviews code for reuse, efficiency, and quality, fixing dead code and naming issues.
-- [Sentry Code Review](https://github.com/getsentry/skills) - Code review following Sentry's engineering practices.
-- [Sentry Security Review](https://github.com/getsentry/skills) - Security code review for injection, XSS, and auth vulnerabilities.
+- [Sentry Code Simplifier](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/code-simplifier) - Refactor for clarity, consistency, and maintainability — eliminates dead code, fixes naming, and reduces complexity.
+- [Sentry Find Bugs](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/find-bugs) - Scan local branch changes for bugs, security vulnerabilities, and code quality issues.
+- [Sentry Code Review](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/code-review) - Code review following Sentry's engineering practices.
+- [Sentry Security Review](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/security-review) - Security code review for injection, XSS, auth bypass, and IDOR vulnerabilities.
+- [Sentry Django Perf Review](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/django-perf-review) - Django-specific performance review — N+1 queries, select_related, caching, and serialization.
+- [Sentry Skill Scanner](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/skill-scanner) - Scan agent skills for security issues — prompt injection, exfiltration, and unsafe tool use.
+- [`verifying-markdown-formatting`](resources/verifying-markdown-formatting/SKILL.md) - Verify headings, lists, links, code blocks, spacing, and style consistency in Markdown files.
+- [`fixing-broken-links`](resources/fixing-broken-links/SKILL.md) - Crawl all URLs in a file, test each for HTTP 200, and fix or replace any broken links.
 
 ### Dependencies
 
@@ -75,13 +82,31 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 
 ### Frontend & UI
 
-- [shadcn/ui Skill](https://github.com/hzm0321/real-time-fund/blob/main/.cursor/skills/shadcn/SKILL.md) - Managing shadcn components — adding, searching, debugging, styling, and composing UI.
-- [Vercel React Best Practices](https://github.com/vercel-labs/agent-skills) - 40+ rules for React/Next.js performance including eliminating request waterfalls and bundle optimization.
-- [Vercel Web Design Guidelines](https://github.com/vercel-labs/agent-skills) - UI code auditing for accessibility, UX, and performance compliance.
+- [`using-ui-stack`](resources/using-ui-stack/SKILL.md) - Enforce a design system (8px grid, color tokens, typography, dark mode, 5-state interactions) on every AI-generated component.
+- [`converting-css-to-tailwind`](resources/converting-css-to-tailwind/SKILL.md) - Convert plain CSS stylesheets to Tailwind utility classes — selectors, media queries, pseudo-classes, animations, and arbitrary values.
+- [`converting-css-modules-to-tailwind`](resources/converting-css-modules-to-tailwind/SKILL.md) - Migrate CSS Modules to Tailwind — handles `styles.xxx` removal, `composes`, conditional classNames, SCSS features, and cleanup.
+- [Anthropic Frontend Design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) - Generate polished, production-ready frontend UI with consistent styling and responsive layouts.
+- [shadcn/ui Skill](https://ui.shadcn.com/docs/skills) - Managing shadcn components — adding, searching, debugging, styling, and composing UI.
+- [Vercel React Best Practices](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices) - 40+ rules for React/Next.js performance including eliminating request waterfalls and bundle optimization.
+- [Vercel Web Design Guidelines](https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines) - UI code auditing for accessibility, UX, and performance compliance.
+- [Vercel React View Transitions](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions) - Implement the View Transitions API in React/Next.js for smooth page and component animations.
+- [Vercel Composition Patterns](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) - Component composition, code splitting, and server/client boundary patterns for Next.js.
+
+### Planning & Architecture
+
+- [Matt Pocock PRD to Issues](https://github.com/mattpocock/skills/tree/main/prd-to-issues) - Convert a product requirements doc into a set of well-scoped GitHub issues.
+- [Matt Pocock Improve Architecture](https://github.com/mattpocock/skills/tree/main/improve-codebase-architecture) - Analyze a codebase and propose concrete architecture improvements.
+- [Matt Pocock Grill Me](https://github.com/mattpocock/skills/tree/main/grill-me) - Challenge assumptions and push back on ideas before committing to an approach.
+- [Anthropic MCP Builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) - Build Model Context Protocol servers from scratch with tool definitions and transport setup.
 
 ### Documentation
 
 - [`adding-api-docs`](resources/adding-api-docs/SKILL.md) - Generate OpenAPI/Swagger documentation with interactive docs UI.
+- [Anthropic Doc Coauthoring](https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring) - Structured workflow for co-authoring technical documentation with an AI agent.
+
+### Utilities
+
+- [`exporting-to-png`](resources/exporting-to-png/SKILL.md) - Export code snippets, diagrams, terminal output, or UI components to PNG images via headless browser or CLI tools.
 
 ## Plugins
 
@@ -155,7 +180,7 @@ Cursor Rules (`.cursorrules` / `.cursor/rules/`) are complementary to skills —
 
 - [npx skills](https://github.com/vercel-labs/skills) - CLI to search, install, and manage skills.
 - [PostHog/context-mill](https://github.com/PostHog/context-mill) - Assemble context for AI agents into Agent Skills-compliant packages.
-- [Anthropic Skill Creator](https://github.com/anthropics/skills) - Official skill for drafting, testing, and optimizing custom SKILL.md files.
+- [Anthropic Skill Creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) - Official skill for drafting, testing, and optimizing custom SKILL.md files.
 
 ---
 
