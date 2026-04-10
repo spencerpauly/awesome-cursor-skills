@@ -21,8 +21,8 @@ Ready-to-use `SKILL.md` files you can copy into your `.cursor/skills/` directory
 
 Skills that harness Cursor's unique agent capabilities — things only an AI inside Cursor can do.
 
-- [`suggesting-cursor-rules`](resources/suggesting-cursor-rules/SKILL.md) - If you keep correcting the agent on the same convention, it suggests a Cursor rule to encode it permanently.
-- [`suggesting-cursor-hooks`](resources/suggesting-cursor-hooks/SKILL.md) - If you keep asking the agent to run the same check, it suggests a Cursor hook to automate it.
+- [`suggesting-cursor-rules`](resources/suggesting-cursor-rules/SKILL.md) - If you keep correcting the agent on the same convention (import style, naming, etc.), it notices the pattern and suggests creating a `.cursor/rules/` file to encode it permanently.
+- [`suggesting-cursor-hooks`](resources/suggesting-cursor-hooks/SKILL.md) - If you keep asking the agent to run the same check after edits (lint, type-check, tests), it suggests setting up a `.cursor/hooks.json` hook to automate it.
 - [`switching-projects`](resources/switching-projects/SKILL.md) - Switch the active workspace to a different project using the `cursor-app-control` MCP, without opening a new window.
 - [`visual-qa-testing`](resources/visual-qa-testing/SKILL.md) - Open the app in Cursor's built-in browser, take screenshots, check console errors, and audit network requests after making changes.
 - [`verifying-in-browser`](resources/verifying-in-browser/SKILL.md) - Start the dev server, open the app side-by-side with your code, and verify rendering, console, and network health.
