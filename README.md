@@ -118,6 +118,16 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`vercel-composition-patterns`](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) - Component composition, code splitting, and server/client boundary patterns for Next.js.
 - [`react-native-patterns`](resources/react-native-patterns/SKILL.md) - Build mobile apps with React Native and Expo — navigation, platform-specific code, performance, and native modules.
 
+### ERP & Business Applications
+
+- [`odoo-model-inspect`](https://github.com/oconsole/odoo-skills/tree/master/odoo-model-inspect) - Inspect Odoo model structure, field definitions, view XML, and record counts (read-only).
+- [`odoo-accounting-inspect`](https://github.com/oconsole/odoo-skills/tree/master/odoo-accounting-inspect) - Inspect Odoo invoices, bills, payments, journal entries, and aged receivables (read-only).
+- [`odoo-mrp-inspect`](https://github.com/oconsole/odoo-skills/tree/master/odoo-mrp-inspect) - Inspect Odoo manufacturing orders, bills of materials, production status, and component availability (read-only).
+- [`odoo-stock-inspect`](https://github.com/oconsole/odoo-skills/tree/master/odoo-stock-inspect) - Inspect Odoo inventory levels, stock moves, transfers, and reordering rules (read-only).
+- [`odoo-system-inspect`](https://github.com/oconsole/odoo-skills/tree/master/odoo-system-inspect) - Inspect Odoo system health including modules, cron jobs, error logs, and user activity (read-only).
+- [`odoo-model-customize`](https://github.com/oconsole/odoo-skills/tree/master/odoo-model-customize) - Customize Odoo models at runtime — custom fields, views, defaults, filters, and automated actions.
+- [`odoo-model-customize-demo`](https://github.com/oconsole/odoo-skills/tree/master/odoo-model-customize-demo) - Sandboxed Odoo customization for learning and prototyping with demo-tagged artifacts for easy cleanup.
+
 ### Planning & Architecture
 
 - [`mattpocock-prd-to-issues`](https://github.com/mattpocock/skills/tree/main/prd-to-issues) - Convert a product requirements doc into a set of well-scoped GitHub issues.
