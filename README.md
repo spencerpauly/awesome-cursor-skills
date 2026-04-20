@@ -192,6 +192,7 @@ Official Cursor marketplace plugins with bundled skills. Install via **Cursor Se
 - [Meta Reality Labs](https://cursor.com/cn/marketplace/meta-reality-labs) - (`hz-immersive-designer`, `hz-new-project-creation` + 11 more) Quest and Horizon OS development.
 - [Plain](https://cursor.com/cn/marketplace/plain) - Support threads, customer management, and help center articles.
 - [Turbopuffer](https://cursor.com/cn/marketplace/turbopuffer) - Vector and full-text search database integration.
+- [Superpower Builder](https://github.com/redhuntlabs/superpower-builder) - Interview-driven meta-builder that turns recurring tasks into reusable `SKILL.md` files, routed by kind (workflow, discipline, content, subagent) with baseline-vs-with-skill pressure-testing on each generated skill. Ships 25 bundled superpowers covering dev (TDD, plan/execute) and non-dev (research, writing, decisions) work. Installs via Cursor plugin descriptor (`.cursor-plugin/plugin.json`).
 
 ## Cursor Resources
 
