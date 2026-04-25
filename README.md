@@ -145,10 +145,12 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 
 - [`exporting-to-png`](resources/exporting-to-png/SKILL.md) - Export code snippets, diagrams, terminal output, or UI components to PNG images via headless browser or CLI tools.
 - [`generating-images`](resources/generating-images/SKILL.md) - Generate or edit images (icons, logos, blog heroes, OG images, illustrations, mockups) using OpenAI `gpt-image-2`. Supports text-to-image, image-to-image, masked inpainting, and parallel batch jobs.
+- [`prompt-to-asset`](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server generating production-ready visual assets (app icons, favicons, OG images, logos) across 30+ image generation models. Zero API key required for first run via free tiers.
 - [`prompt-engineering`](resources/prompt-engineering/SKILL.md) - Write effective LLM prompts — system prompts, few-shot examples, chain-of-thought, and structured output.
 - [`seo-auditing`](resources/seo-auditing/SKILL.md) - Audit technical SEO — meta tags, structured data, Open Graph, sitemaps, and Core Web Vitals.
 - [`seo-analysis`](https://github.com/nowork-studio/toprank/blob/main/seo/seo-analysis/SKILL.md) - Full SEO audit using Search Console, URL inspection, PageSpeed, technical crawling, metadata checks, schema review, and a prioritized 30-day action plan.
 - [`writing-copy`](resources/writing-copy/SKILL.md) - Write marketing copy for landing pages, CTAs, emails, microcopy, and product descriptions.
+- [`unslop`](https://github.com/MohamedAbdallah-14/unslop) - Strip AI writing patterns (sycophancy, stock vocabulary, hedging stacks, em-dash overuse) from output before publishing. CLI pipe mode for scripting: `echo "draft" | unslop --stdin`.
 
 ## Plugins
 
