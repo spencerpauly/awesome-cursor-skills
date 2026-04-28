@@ -83,6 +83,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`writing-commit-messages`](resources/writing-commit-messages/SKILL.md) - Write conventional commit messages with type prefixes, scopes, and meaningful descriptions.
 - [`incident-response`](resources/incident-response/SKILL.md) - Handle production incidents — triage severity, mitigate, communicate status, and write blameless postmortems.
 - [`systematic-debugging`](resources/systematic-debugging/SKILL.md) - Structured debugging methodology — reproduce, isolate, hypothesize, and verify using git bisect, binary search, and logging.
+- [`chatcrystal`](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills) - Local-first memory recall and writeback skills for AI coding sessions via ChatCrystal Core and MCP.
 
 ### Infrastructure & DevOps
 
@@ -151,6 +152,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`seo-analysis`](https://github.com/nowork-studio/toprank/blob/main/seo/seo-analysis/SKILL.md) - Full SEO audit using Search Console, URL inspection, PageSpeed, technical crawling, metadata checks, schema review, and a prioritized 30-day action plan.
 - [`writing-copy`](resources/writing-copy/SKILL.md) - Write marketing copy for landing pages, CTAs, emails, microcopy, and product descriptions.
 - [`unslop`](https://github.com/MohamedAbdallah-14/unslop) - Strip AI writing patterns (sycophancy, stock vocabulary, hedging stacks, em-dash overuse) from output before publishing. CLI pipe mode for scripting: `echo "draft" | unslop --stdin`.
+- [`concise`](https://github.com/Cpp1022/concise) - Chinese-first concise mode skill. Compresses Cursor agent replies on two layers (expression + content) with auto-relax for safety, multi-step, and parameter-heavy cases. Works across Cursor, Claude Code, and Codex CLI.
 
 ## Plugins
 
@@ -195,6 +197,7 @@ Official Cursor marketplace plugins with bundled skills. Install via **Cursor Se
 - [Meta Reality Labs](https://cursor.com/cn/marketplace/meta-reality-labs) - (`hz-immersive-designer`, `hz-new-project-creation` + 11 more) Quest and Horizon OS development.
 - [Plain](https://cursor.com/cn/marketplace/plain) - Support threads, customer management, and help center articles.
 - [Turbopuffer](https://cursor.com/cn/marketplace/turbopuffer) - Vector and full-text search database integration.
+- [Superpower Builder](https://github.com/redhuntlabs/superpower-builder) - Interview-driven meta-builder that turns recurring tasks into reusable `SKILL.md` files, routed by kind (workflow, discipline, content, subagent) with baseline-vs-with-skill pressure-testing on each generated skill. Ships 25 bundled superpowers covering dev (TDD, plan/execute) and non-dev (research, writing, decisions) work. Installs via Cursor plugin descriptor (`.cursor-plugin/plugin.json`).
 
 ## Cursor Resources
 
