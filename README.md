@@ -84,7 +84,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`incident-response`](resources/incident-response/SKILL.md) - Handle production incidents — triage severity, mitigate, communicate status, and write blameless postmortems.
 - [`systematic-debugging`](resources/systematic-debugging/SKILL.md) - Structured debugging methodology — reproduce, isolate, hypothesize, and verify using git bisect, binary search, and logging.
 - [`chatcrystal`](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills) - Local-first memory recall and writeback skills for AI coding sessions via ChatCrystal Core and MCP.
-- [`ejentum-reasoning-harness`](https://github.com/ejentum/ejentum-mcp/tree/main/skills) - Four cognitive harness skills (reasoning, code, anti-deception, memory) backed by an MCP server that injects engineered scaffolds (failure pattern, procedure, suppression vectors, falsification test) into Cursor's context before generation. Pairs with a [.cursorrules adapter](https://github.com/ejentum/ejentum-mcp/tree/main/editors/cursor) for autonomous routing. Free tier 100 calls.
+- [`ejentum-reasoning-harness`](https://github.com/ejentum/ejentum-mcp/tree/main/skills) - Four skills for Cursor (reasoning, code, anti-deception, memory) routing to the [ejentum-mcp](https://github.com/ejentum/ejentum-mcp) MCP server.
 
 ### Infrastructure & DevOps
 
