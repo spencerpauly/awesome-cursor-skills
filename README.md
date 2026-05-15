@@ -132,6 +132,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`anthropic-mcp-builder`](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) - Build Model Context Protocol servers from scratch with tool definitions and transport setup.
 - [`architecture-decision-records`](resources/architecture-decision-records/SKILL.md) - Document technical decisions as ADRs with context, options considered, and rationale.
 - [`database-design`](resources/database-design/SKILL.md) - Design database schemas — tables, relationships, indexes, constraints, and ORM setup.
+- [`recsys-pipeline-architect`](https://github.com/mturac/recsys-pipeline-architect) - Design composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Selector→SideEffect framework popularized by xAI's open-sourced X For You algorithm. Surfaces multi-action vs single-score, candidate isolation vs joint, and online vs offline trade-offs explicitly; emits runnable scaffolds for Strapi (TypeScript), Go, or Python/FastAPI.
 
 ### Documentation
 
