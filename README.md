@@ -132,6 +132,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`anthropic-mcp-builder`](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) - Build Model Context Protocol servers from scratch with tool definitions and transport setup.
 - [`architecture-decision-records`](resources/architecture-decision-records/SKILL.md) - Document technical decisions as ADRs with context, options considered, and rationale.
 - [`database-design`](resources/database-design/SKILL.md) - Design database schemas — tables, relationships, indexes, constraints, and ORM setup.
+- [`@hanv89/azure-arch-skill`](https://github.com/hanv89/azure-icons-for-architecture-diagrams) - Draw Microsoft Azure and Microsoft Fabric architecture diagrams in PlantUML with `<img:URL>` references to 840 first-party-MIT icons; per-vendor `INDEX.md` lets the agent grep by name/tag instead of guessing filenames. Install: `npx @hanv89/azure-arch-skill@latest install --agent=cursor` (per-project install into `<cwd>/.cursor/rules/`).
 
 ### Documentation
 
