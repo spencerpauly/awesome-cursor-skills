@@ -151,6 +151,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`seo-analysis`](https://github.com/nowork-studio/toprank/blob/main/seo/seo-analysis/SKILL.md) - Full SEO audit using Search Console, URL inspection, PageSpeed, technical crawling, metadata checks, schema review, and a prioritized 30-day action plan.
 - [`writing-copy`](resources/writing-copy/SKILL.md) - Write marketing copy for landing pages, CTAs, emails, microcopy, and product descriptions.
 - [`concise`](https://github.com/Cpp1022/concise) - Chinese-first concise mode skill. Compresses Cursor agent replies on two layers (expression + content) with auto-relax for safety, multi-step, and parameter-heavy cases. Works across Cursor, Claude Code, and Codex CLI.
+- [`notfair`](https://github.com/nowork-studio/NotFair) - Open-source agent skills for SEO ([`seo/`](https://github.com/nowork-studio/NotFair/tree/main/seo)), Google Ads ([`google-ads/`](https://github.com/nowork-studio/NotFair/tree/main/google-ads)), and Meta Ads ([`meta-ads/`](https://github.com/nowork-studio/NotFair/tree/main/meta-ads)), connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
 
 ## Plugins
 
