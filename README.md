@@ -75,6 +75,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`mattpocock-tdd`](https://github.com/mattpocock/skills/tree/main/tdd) - Vertical-slice TDD for AI agents — one test, one implementation, repeat. Prevents over-engineering and speculative tests.
 - [`anthropic-webapp-testing`](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) - Automated browser testing for web apps with screenshot verification and interaction flows.
 - [`api-smoke-testing`](resources/api-smoke-testing/SKILL.md) - Discover API routes from the codebase, hit every endpoint, and report which ones return errors.
+- [`write-unit-tests`](resources/write-unit-tests/SKILL.md) - Create comprehensive unit tests with proper imports, setup, and coverage following project testing conventions.
 
 ### Workflow
 
@@ -82,6 +83,11 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`creating-pr`](resources/creating-pr/SKILL.md) - Create clean, review-ready pull requests with conventional titles, structured descriptions, and linked issues.
 - [`writing-commit-messages`](resources/writing-commit-messages/SKILL.md) - Write conventional commit messages with type prefixes, scopes, and meaningful descriptions.
 - [`incident-response`](resources/incident-response/SKILL.md) - Handle production incidents — triage severity, mitigate, communicate status, and write blameless postmortems.
+- [`debug-issue`](resources/debug-issue/SKILL.md) - Systematically debug issues with structured approach, root cause analysis, and actionable solutions.
+- [`address-github-pr-comments`](resources/address-github-pr-comments/SKILL.md) - Process outstanding reviewer feedback, apply required fixes, and manage PR review workflows.
+- [`remembering-conversations`](resources/remembering-conversations/SKILL.md) - Search past Cursor conversations for decisions, patterns, and solutions to maintain project context.
+- [`cursor-insights`](resources/cursor-insights/SKILL.md) - Analyze Cursor IDE usage patterns and improve prompting effectiveness for better development workflows.
+- [`interactive-impact-analysis`](resources/interactive-impact-analysis/SKILL.md) - Analyze potential impact of changes across systems and dependencies before implementation.
 - [`systematic-debugging`](resources/systematic-debugging/SKILL.md) - Structured debugging methodology — reproduce, isolate, hypothesize, and verify using git bisect, binary search, and logging.
 - [`chatcrystal`](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills) - Local-first memory recall and writeback skills for AI coding sessions via ChatCrystal Core and MCP.
 
@@ -92,6 +98,8 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`setting-up-terraform`](resources/setting-up-terraform/SKILL.md) - Infrastructure-as-code with provider config, modules, remote state, and CI integration.
 - [`antonbabenko-terraform`](https://github.com/antonbabenko/terraform-skill) - Terraform and OpenTofu skill — testing, modules, CI/CD, and production patterns.
 - [`kubernetes-deploying`](resources/kubernetes-deploying/SKILL.md) - Deploy to Kubernetes — Deployments, Services, Ingress, ConfigMaps, health checks, and autoscaling.
+- [`database-migration`](resources/database-migration/SKILL.md) - Create and manage database migrations using goose with best practices for zero-downtime deployments.
+- [`fix-git-issues`](resources/fix-git-issues/SKILL.md) - Resolve common Git problems and conflicts with step-by-step commands and recovery strategies.
 
 ### Code Quality & Security
 
@@ -106,10 +114,24 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`sentry-skill-scanner`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/skill-scanner) - Scan agent skills for security issues — prompt injection, exfiltration, and unsafe tool use.
 - [`verifying-markdown-formatting`](resources/verifying-markdown-formatting/SKILL.md) - Verify headings, lists, links, code blocks, spacing, and style consistency in Markdown files.
 - [`fixing-broken-links`](resources/fixing-broken-links/SKILL.md) - Crawl all URLs in a file, test each for HTTP 200, and fix or replace any broken links.
+- [`security-review`](resources/security-review/SKILL.md) - Comprehensive security review with OWASP Top 10 analysis and specific remediation steps with code examples.
+- [`add-error-handling`](resources/add-error-handling/SKILL.md) - Implement comprehensive error handling to make code robust and resilient to failures.
+- [`refactor-code`](resources/refactor-code/SKILL.md) - Refactor code to improve quality while maintaining functionality and reducing technical debt.
+- [`optimize-performance`](resources/optimize-performance/SKILL.md) - Analyze code for performance bottlenecks and provide optimization recommendations with measurable improvements.
 
 ### Dependencies
 
 - [`updating-npm-package`](resources/updating-npm-package/SKILL.md) - Safely update an npm package: check npmjs.com for the latest version, read release notes, auto-apply minor updates, and for major updates find the migration guide and produce a detailed validation report.
+
+### Enterprise/Go Development
+
+- [`go-repo-scaffolding`](resources/go-repo-scaffolding/SKILL.md) - Scaffold JumpCloud Go repositories with CI/CD, service structure, database setup, and cross-repo PRs for inventory mapping and terraform.
+- [`jumpcloud-qa-automation`](resources/jumpcloud-qa-automation/SKILL.md) - Fully automate acceptance test implementation from feature files with branch creation, test execution in devspace, and PR workflows.
+- [`build-data-contract`](resources/build-data-contract/SKILL.md) - Generate PostgreSQL Data Contract YAML files by parsing goose migration files for service documentation.
+- [`build-events-data-contract`](resources/build-events-data-contract/SKILL.md) - Build Kafka/event Data Contract YAML files for event-driven architecture documentation.
+- [`integrate-buf-repo`](resources/integrate-buf-repo/SKILL.md) - Integrate buf protobuf linting and code generation with protodep and Docker for API development.
+- [`create-component-from-figma`](resources/create-component-from-figma/SKILL.md) - Create Vue 3 components from Figma designs using Circuit design system, Tailwind, and PrimeVue.
+- [`design-system-authoring`](resources/design-system-authoring/SKILL.md) - Author and expand Circuit Design System components following enterprise design patterns.
 
 ### Frontend & UI
 
