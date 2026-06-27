@@ -98,6 +98,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`reviewing-code`](resources/reviewing-code/SKILL.md) - Thorough code review focused on correctness, maintainability, performance, and best practices.
 - [`auditing-security`](resources/auditing-security/SKILL.md) - Systematic security audit checking for OWASP Top 10 vulnerabilities, secrets exposure, and insecure patterns.
 - [`auditing-performance`](resources/auditing-performance/SKILL.md) - Audit bundle size, rendering, database queries, and Core Web Vitals.
+- [`scip-cli`](https://github.com/flesler/scip-cli) - Token-efficient code intelligence for AI agents — precise refs, definitions, and repo health analysis (dead exports, cycles, coupling) via SCIP indexes. `pip install scip-cli && scip-cli skill ~/.cursor/skills/scip-cli/`
 - [`sentry-code-simplifier`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/code-simplifier) - Refactor for clarity, consistency, and maintainability — eliminates dead code, fixes naming, and reduces complexity.
 - [`sentry-find-bugs`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/find-bugs) - Scan local branch changes for bugs, security vulnerabilities, and code quality issues.
 - [`sentry-code-review`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/code-review) - Code review following Sentry's engineering practices.
