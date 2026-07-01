@@ -229,6 +229,7 @@ Cursor Rules (`.cursorrules` / `.cursor/rules/`) are complementary to skills —
 
 ---
 
+- [Skill Hub](https://skill.442595.xyz/) — 5800+ curated AI Agent Skills for Claude Code, Codex, Cursor, Hermes & more across 22 categories.
 ## Contributing
 
 Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
