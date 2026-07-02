@@ -151,6 +151,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`seo-analysis`](https://github.com/nowork-studio/toprank/blob/main/seo/seo-analysis/SKILL.md) - Full SEO audit using Search Console, URL inspection, PageSpeed, technical crawling, metadata checks, schema review, and a prioritized 30-day action plan.
 - [`writing-copy`](resources/writing-copy/SKILL.md) - Write marketing copy for landing pages, CTAs, emails, microcopy, and product descriptions.
 - [`concise`](https://github.com/Cpp1022/concise) - Chinese-first concise mode skill. Compresses Cursor agent replies on two layers (expression + content) with auto-relax for safety, multi-step, and parameter-heavy cases. Works across Cursor, Claude Code, and Codex CLI.
+- [`youtube-full`](https://github.com/ZeroPointRepo/youtube-skills) - Fetch YouTube transcripts, search videos/channels, and pull playlist/channel data via TranscriptAPI. No yt-dlp, works from any cloud server.
 
 ## Plugins
 
