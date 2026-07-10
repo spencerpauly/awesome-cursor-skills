@@ -84,6 +84,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`incident-response`](resources/incident-response/SKILL.md) - Handle production incidents — triage severity, mitigate, communicate status, and write blameless postmortems.
 - [`systematic-debugging`](resources/systematic-debugging/SKILL.md) - Structured debugging methodology — reproduce, isolate, hypothesize, and verify using git bisect, binary search, and logging.
 - [`chatcrystal`](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills) - Local-first memory recall and writeback skills for AI coding sessions via ChatCrystal Core and MCP.
+- [`paleo`](https://github.com/mocasus/paleo) - A collection of 6 token-saving skills for AI coding agents (compress output, trim context, budget caps, merge chatter, summarize tool output, compact JSON) — benchmarked median 53.8% fewer output tokens, zero quality loss. Installs in Cursor via `npx skills add mocasus/paleo` (also Claude Code, Codex, Gemini CLI, OpenCode, Qwen).
 
 ### Infrastructure & DevOps
 
