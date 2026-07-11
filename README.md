@@ -152,6 +152,10 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`writing-copy`](resources/writing-copy/SKILL.md) - Write marketing copy for landing pages, CTAs, emails, microcopy, and product descriptions.
 - [`concise`](https://github.com/Cpp1022/concise) - Chinese-first concise mode skill. Compresses Cursor agent replies on two layers (expression + content) with auto-relax for safety, multi-step, and parameter-heavy cases. Works across Cursor, Claude Code, and Codex CLI.
 
+### Machine Learning & AI
+
+- [`gpu-brrr`](https://github.com/tripplen23/gpu-brrr) - Diagnose GPU bottlenecks from first principles: classify compute-bound vs bandwidth-bound vs overhead-bound, then apply the matching fix. Supports PyTorch profiling, `torch.compile`, Nsight, Triton kernels, and roofline analysis.
+
 ## Plugins
 
 Official Cursor marketplace plugins with bundled skills. Install via **Cursor Settings > Plugins**.
