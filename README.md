@@ -106,6 +106,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`sentry-skill-scanner`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/skill-scanner) - Scan agent skills for security issues — prompt injection, exfiltration, and unsafe tool use.
 - [`verifying-markdown-formatting`](resources/verifying-markdown-formatting/SKILL.md) - Verify headings, lists, links, code blocks, spacing, and style consistency in Markdown files.
 - [`fixing-broken-links`](resources/fixing-broken-links/SKILL.md) - Crawl all URLs in a file, test each for HTTP 200, and fix or replace any broken links.
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Security harness that intercepts tool calls in AI coding agents before files change or network is contacted.
 
 ### Dependencies
 
