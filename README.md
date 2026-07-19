@@ -84,6 +84,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`incident-response`](resources/incident-response/SKILL.md) - Handle production incidents — triage severity, mitigate, communicate status, and write blameless postmortems.
 - [`systematic-debugging`](resources/systematic-debugging/SKILL.md) - Structured debugging methodology — reproduce, isolate, hypothesize, and verify using git bisect, binary search, and logging.
 - [`chatcrystal`](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills) - Local-first memory recall and writeback skills for AI coding sessions via ChatCrystal Core and MCP.
+- [`plan-build-judge`](https://github.com/joker01-01/cursor-plan-build-judge) - Spec-first workflow for complex tasks: Planner writes a testable spec, Builder executes within bounds, Judge reviews against real artifacts instead of self-reported completion. English + Chinese skills included.
 
 ### Infrastructure & DevOps
 
