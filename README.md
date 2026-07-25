@@ -218,6 +218,7 @@ Cursor Rules (`.cursorrules` / `.cursor/rules/`) are complementary to skills —
 
 - [cursor-skills GitHub Topic](https://github.com/topics/cursor-skills) - Browse community repos tagged with cursor-skills.
 - [skills.sh](https://skills.sh/) - Leaderboard and directory for popular skill repositories.
+- [AlexAnsart/demo-studio](https://github.com/AlexAnsart/demo-studio) - Skill pack for polished product demo videos — Playwright capture, smart zooms, optional ElevenLabs narration, Whisper sync, and burned captions (`npx skills add AlexAnsart/demo-studio --all`).
 - [AgentDepot.dev](https://agentdepot.dev/) - Open-source explorer for agents, skills, and rules.
 - [CursorDirectory](https://cursor.directory/) - Community directory for Cursor rules and configurations.
 
