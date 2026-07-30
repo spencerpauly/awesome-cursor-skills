@@ -72,7 +72,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`adding-e2e-tests`](resources/adding-e2e-tests/SKILL.md) - Set up Playwright with config, example tests, page objects, and CI integration.
 - [`writing-tests`](resources/writing-tests/SKILL.md) - Analyze existing code and write comprehensive unit and integration tests with proper mocking, edge cases, and assertions.
 - [`python-tdd-with-uv`](resources/python-tdd-with-uv/SKILL.md) - Test-driven development in Python using uv — red-green-refactor cycle with vertical slicing and fast dependency management.
-- [`mattpocock-tdd`](https://github.com/mattpocock/skills/tree/main/tdd) - Vertical-slice TDD for AI agents — one test, one implementation, repeat. Prevents over-engineering and speculative tests.
+- [`mattpocock-tdd`](https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd) - Vertical-slice TDD for AI agents — one test, one implementation, repeat. Prevents over-engineering and speculative tests.
 - [`anthropic-webapp-testing`](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) - Automated browser testing for web apps with screenshot verification and interaction flows.
 - [`api-smoke-testing`](resources/api-smoke-testing/SKILL.md) - Discover API routes from the codebase, hit every endpoint, and report which ones return errors.
 
@@ -98,12 +98,12 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`reviewing-code`](resources/reviewing-code/SKILL.md) - Thorough code review focused on correctness, maintainability, performance, and best practices.
 - [`auditing-security`](resources/auditing-security/SKILL.md) - Systematic security audit checking for OWASP Top 10 vulnerabilities, secrets exposure, and insecure patterns.
 - [`auditing-performance`](resources/auditing-performance/SKILL.md) - Audit bundle size, rendering, database queries, and Core Web Vitals.
-- [`sentry-code-simplifier`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/code-simplifier) - Refactor for clarity, consistency, and maintainability — eliminates dead code, fixes naming, and reduces complexity.
-- [`sentry-find-bugs`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/find-bugs) - Scan local branch changes for bugs, security vulnerabilities, and code quality issues.
-- [`sentry-code-review`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/code-review) - Code review following Sentry's engineering practices.
-- [`sentry-security-review`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/security-review) - Security code review for injection, XSS, auth bypass, and IDOR vulnerabilities.
-- [`sentry-django-perf-review`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/django-perf-review) - Django-specific performance review — N+1 queries, select_related, caching, and serialization.
-- [`sentry-skill-scanner`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/skill-scanner) - Scan agent skills for security issues — prompt injection, exfiltration, and unsafe tool use.
+- [`sentry-code-simplifier`](https://github.com/getsentry/skills/tree/main/skills/code-simplifier) - Refactor for clarity, consistency, and maintainability — eliminates dead code, fixes naming, and reduces complexity.
+- [`sentry-find-bugs`](https://github.com/getsentry/skills/tree/main/skills/find-bugs) - Scan local branch changes for bugs, security vulnerabilities, and code quality issues.
+- [`sentry-code-review`](https://github.com/getsentry/skills/tree/main/skills/code-review) - Code review following Sentry's engineering practices.
+- [`sentry-security-review`](https://github.com/getsentry/skills/tree/main/skills/security-review) - Security code review for injection, XSS, auth bypass, and IDOR vulnerabilities.
+- [`sentry-django-perf-review`](https://github.com/getsentry/skills/tree/main/skills/django-perf-review) - Django-specific performance review — N+1 queries, select_related, caching, and serialization.
+- [`sentry-skill-scanner`](https://github.com/getsentry/skills/tree/main/skills/skill-scanner) - Scan agent skills for security issues — prompt injection, exfiltration, and unsafe tool use.
 - [`verifying-markdown-formatting`](resources/verifying-markdown-formatting/SKILL.md) - Verify headings, lists, links, code blocks, spacing, and style consistency in Markdown files.
 - [`fixing-broken-links`](resources/fixing-broken-links/SKILL.md) - Crawl all URLs in a file, test each for HTTP 200, and fix or replace any broken links.
 
@@ -126,9 +126,9 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 
 ### Planning & Architecture
 
-- [`mattpocock-prd-to-issues`](https://github.com/mattpocock/skills/tree/main/prd-to-issues) - Convert a product requirements doc into a set of well-scoped GitHub issues.
-- [`mattpocock-improve-architecture`](https://github.com/mattpocock/skills/tree/main/improve-codebase-architecture) - Analyze a codebase and propose concrete architecture improvements.
-- [`mattpocock-grill-me`](https://github.com/mattpocock/skills/tree/main/grill-me) - Challenge assumptions and push back on ideas before committing to an approach.
+- [`mattpocock-to-tickets`](https://github.com/mattpocock/skills/tree/main/skills/engineering/to-tickets) - Break a plan, spec, or conversation into dependency-aware tickets for local, GitHub, or Linear trackers.
+- [`mattpocock-improve-architecture`](https://github.com/mattpocock/skills/tree/main/skills/engineering/improve-codebase-architecture) - Analyze a codebase and propose concrete architecture improvements.
+- [`mattpocock-grill-me`](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) - Challenge assumptions and push back on ideas before committing to an approach.
 - [`anthropic-mcp-builder`](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) - Build Model Context Protocol servers from scratch with tool definitions and transport setup.
 - [`architecture-decision-records`](resources/architecture-decision-records/SKILL.md) - Document technical decisions as ADRs with context, options considered, and rationale.
 - [`database-design`](resources/database-design/SKILL.md) - Design database schemas — tables, relationships, indexes, constraints, and ORM setup.
@@ -151,6 +151,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`seo-analysis`](https://github.com/nowork-studio/toprank/blob/main/seo/seo-analysis/SKILL.md) - Full SEO audit using Search Console, URL inspection, PageSpeed, technical crawling, metadata checks, schema review, and a prioritized 30-day action plan.
 - [`writing-copy`](resources/writing-copy/SKILL.md) - Write marketing copy for landing pages, CTAs, emails, microcopy, and product descriptions.
 - [`concise`](https://github.com/Cpp1022/concise) - Chinese-first concise mode skill. Compresses Cursor agent replies on two layers (expression + content) with auto-relax for safety, multi-step, and parameter-heavy cases. Works across Cursor, Claude Code, and Codex CLI.
+- [`x-twitter-scraper`](https://github.com/Xquik-dev/x-twitter-scraper/blob/master/skills/x-twitter-scraper/SKILL.md) - Use Xquik for read-first X research, REST/MCP integrations, exports, monitoring, webhooks, and explicitly approved private or write actions. Not affiliated with X Corp.
 
 ## Plugins
 
