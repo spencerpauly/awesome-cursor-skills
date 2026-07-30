@@ -132,6 +132,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`anthropic-mcp-builder`](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) - Build Model Context Protocol servers from scratch with tool definitions and transport setup.
 - [`architecture-decision-records`](resources/architecture-decision-records/SKILL.md) - Document technical decisions as ADRs with context, options considered, and rationale.
 - [`database-design`](resources/database-design/SKILL.md) - Design database schemas — tables, relationships, indexes, constraints, and ORM setup.
+- [`pinchen-system-design`](https://github.com/pinchen147/system-design-skill) - Read a repository as its current architecture, run the capacity math, and compare structurally distinct candidates before recommending one.
 
 ### Documentation
 
