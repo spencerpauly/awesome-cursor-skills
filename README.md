@@ -79,6 +79,8 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 
 ### Workflow
 
+- [Clickyy](https://github.com/jayamitkatariya/clickyyy) - Shake your cursor to summon an AI agent that sees your screen and clicks, types, drags, and acts for you on macOS. Open-source, MIT.
+
 - [`babysitting-pr`](resources/babysitting-pr/SKILL.md) - Monitor an open PR for CI failures, review comments, and merge conflicts — then fix them automatically to keep the PR merge-ready.
 - [`creating-pr`](resources/creating-pr/SKILL.md) - Create clean, review-ready pull requests with conventional titles, structured descriptions, and linked issues.
 - [`writing-commit-messages`](resources/writing-commit-messages/SKILL.md) - Write conventional commit messages with type prefixes, scopes, and meaningful descriptions.
