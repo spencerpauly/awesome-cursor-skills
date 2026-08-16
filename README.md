@@ -85,6 +85,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`incident-response`](resources/incident-response/SKILL.md) - Handle production incidents — triage severity, mitigate, communicate status, and write blameless postmortems.
 - [`systematic-debugging`](resources/systematic-debugging/SKILL.md) - Structured debugging methodology — reproduce, isolate, hypothesize, and verify using git bisect, binary search, and logging.
 - [`chatcrystal`](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills) - Local-first memory recall and writeback skills for AI coding sessions via ChatCrystal Core and MCP.
+- [`agent-memory-discipline`](https://github.com/mnemoverse/cursor-plugin) - Recall relevant memories before non-trivial work and save decisions, corrections, and lessons after, with one memory shared across Cursor, Claude Code, and VS Code through a hosted MCP server.
 
 ### Infrastructure & DevOps
 
