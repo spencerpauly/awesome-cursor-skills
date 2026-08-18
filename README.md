@@ -117,6 +117,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 
 ### Frontend & UI
 
+- [`anti-ui-slop`](https://github.com/uizze/uizze/tree/main/skills/anti-ui-slop) - Stop generic UI in Cursor with a product-specific design contract, required loading/empty/error states, and a hard finish gate. Install with `npx skills add uizze/uizze --skill anti-ui-slop`; the no-account preview and optional full workflow cover 800,000+ real web and iOS screens.
 - [`using-ui-stack`](resources/using-ui-stack/SKILL.md) - Enforce a design system (8px grid, color tokens, typography, dark mode, 5-state interactions) on every AI-generated component.
 - [`converting-css-to-tailwind`](resources/converting-css-to-tailwind/SKILL.md) - Convert plain CSS stylesheets to Tailwind utility classes — selectors, media queries, pseudo-classes, animations, and arbitrary values.
 - [`converting-css-modules-to-tailwind`](resources/converting-css-modules-to-tailwind/SKILL.md) - Migrate CSS Modules to Tailwind — handles `styles.xxx` removal, `composes`, conditional classNames, SCSS features, and cleanup.
