@@ -67,6 +67,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`adding-auth`](resources/adding-auth/SKILL.md) - Add OAuth login, session management, and protected routes with Auth.js (NextAuth).
 - [`adding-stripe`](resources/adding-stripe/SKILL.md) - Integrate Stripe checkout, subscriptions, webhooks, and customer portal.
 - [`authsome`](https://github.com/agentrhq/authsome) - Local credential broker for AI agents. Log in once via OAuth2 or API key, encrypted vault stores credentials, local proxy injects them at request time so Cursor's agent never sees raw secrets. 45 providers bundled including GitHub, Google, OpenAI, Linear, Slack, Notion, Resend, Stripe.
+- [`usdctofiat-cashout`](https://github.com/ADWilkinson/usdctofiat-skills) - Non-custodial Base USDC-to-fiat cash-out via `@usdctofiat/offramp` `cashout({ mode: "fast" | "best" })`. Install with `npx skills add ADWilkinson/usdctofiat-skills --skill cashout`.
 
 ### Testing
 
