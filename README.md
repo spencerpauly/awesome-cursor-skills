@@ -127,6 +127,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`vercel-react-view-transitions`](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions) - Implement the View Transitions API in React/Next.js for smooth page and component animations.
 - [`vercel-composition-patterns`](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) - Component composition, code splitting, and server/client boundary patterns for Next.js.
 - [`react-native-patterns`](resources/react-native-patterns/SKILL.md) - Build mobile apps with React Native and Expo — navigation, platform-specific code, performance, and native modules.
+- [`repo-cover`](https://github.com/sjh9714/repo-cover) - Design your repo's GitHub social preview (og:image) as one self-contained HTML file, with four editorial moods, CJK-first typography, and deterministic design checks.
 
 ### Planning & Architecture
 
