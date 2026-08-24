@@ -50,6 +50,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`network-request-auditing`](resources/network-request-auditing/SKILL.md) - Use the browser's network log to flag failed requests, slowness, duplicates, and risky payloads after real user interactions.
 - [`recording-browser-flow-as-test`](resources/recording-browser-flow-as-test/SKILL.md) - Walk a flow in Cursor's browser, log each step, then emit a Playwright spec using role/name locators from the accessibility tree.
 - [`building-skills-from-patterns`](resources/building-skills-from-patterns/SKILL.md) - Turn repeated multi-step workflows into a new `SKILL.md` under `.cursor/skills/` so the agent can reuse them.
+- [`cursor-usage`](https://github.com/chocolatemale/cursor-usage) - Build a billing-cycle usage canvas from the local Cursor session. Keeps Settings quota bars, chargedCents list price, and the Stripe invoice on three separate rulers.
 
 ### Analytics & Tracking
 
