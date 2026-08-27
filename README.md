@@ -113,7 +113,9 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 ### Dependencies
 
 - [`updating-npm-package`](resources/updating-npm-package/SKILL.md) - Safely update an npm package: check npmjs.com for the latest version, read release notes, auto-apply minor updates, and for major updates find the migration guide and produce a detailed validation report.
-- [`dependabot-triage`](https://github.com/akshayrao14/git-practices/tree/main/skills/dependabot-triage) - Defensive Dependabot triage for JS/TS repos (npm, pnpm, yarn, bun) — picks the *minimal* patched version that supersets every CVE in the cluster, maps every import site into Public/API · Client-Bundle · Internal/Dev exposure buckets, enforces npm↔pnpm lockfile parity before opening the PR, and scrapes the changelog for `BREAKING` / `DEPRECATED` / `MIGRATION` keywords with a safety interlock. Standard and Fast-Track modes. Cross-agent (Cursor, Claude Code, Codex CLI).
+- [`dependabot-triage`](https://github.com/akshayrao14/git-practices/tree/main/skills/dependabot-triage) - Defensive Dependabot triage for JS/TS repos (npm, pnpm, yarn, bun) — picks the *minimal* patched version that supersets every CVE in the cluster, maps every import site into Public/API · Client-Bundle · Internal/Dev exposure buckets, enforces npm↔pnpm lockfile parity before opening the PR, and scrapes the changelog for `BREAKING` / `DEPRECATED` / `MIGRATION` keywords with a safety interlock. Standard and Fast-Track modes. Cross-agent (Cursor, Claude Code, Cnpx skills
+- odex CLI).
+- - [AIPM](https://www.aipm-registry.com/) - Open-source package manager and registry for finding, installing, and managing reusable agent skills across Cursor and other coding tools.
 
 ### Frontend & UI
 
