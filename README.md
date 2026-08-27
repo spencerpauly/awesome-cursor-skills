@@ -75,6 +75,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`python-tdd-with-uv`](resources/python-tdd-with-uv/SKILL.md) - Test-driven development in Python using uv — red-green-refactor cycle with vertical slicing and fast dependency management.
 - [`mattpocock-tdd`](https://github.com/mattpocock/skills/tree/main/tdd) - Vertical-slice TDD for AI agents — one test, one implementation, repeat. Prevents over-engineering and speculative tests.
 - [`anthropic-webapp-testing`](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) - Automated browser testing for web apps with screenshot verification and interaction flows.
+- [`aftertaste`](https://github.com/mcbbugu/aftertaste) - Screenshot a preview URL and score whether the UI still looks like AI slop. Can write a Cursor skill from the fonts and colors it found.
 - [`api-smoke-testing`](resources/api-smoke-testing/SKILL.md) - Discover API routes from the codebase, hit every endpoint, and report which ones return errors.
 
 ### Workflow
