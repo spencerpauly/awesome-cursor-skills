@@ -229,6 +229,7 @@ Cursor Rules (`.cursorrules` / `.cursor/rules/`) are complementary to skills —
 ### Tools
 
 - [npx skills](https://github.com/vercel-labs/skills) - CLI to search, install, and manage skills.
+- [AIPM](https://www.aipm-registry.com/) - Open-source package manager and registry for finding, installing, and managing reusable agent skills across Cursor and other coding tools.
 - [PostHog/context-mill](https://github.com/PostHog/context-mill) - Assemble context for AI agents into Agent Skills-compliant packages.
 - [Anthropic Skill Creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) - Official skill for drafting, testing, and optimizing custom SKILL.md files.
 
