@@ -110,6 +110,8 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Security harness that intercepts tool calls in AI coding agents before files change or network is contacted.
 - [`penthera`](https://github.com/danoszz/penthera/tree/main/skills/penthera)
 - [`alibaba-java-coding-guidelines-en`](resources/alibaba-java-coding-guidelines-en/SKILL.md) - Enforce the official English Alibaba Java Coding Guidelines — 181 rules for naming, constants, formatting, OOP, collections, concurrency, exceptions, logging, MySQL, project structure, and security — during Java coding and reviews.
+
+- [`alibaba-java-coding-guidelines-en`](resources/alibaba-java-coding-guidelines-en/SKILL.md) - Enforce the official English Alibaba Java Coding Guidelines — 181 rules for naming, constants, formatting, OOP, collections, concurrency, exceptions, logging, MySQL, project structure, and security — during Java coding and reviews.
  - Security scanner for web apps covering TLS, headers, auth hardening, secret scanning, IDOR/OAuth, and injection probes, with OWASP-mapped findings and SARIF output. Runs as a Cursor skill or CLI for authorized testing only.
 
 ### Dependencies
