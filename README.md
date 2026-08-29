@@ -108,7 +108,11 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`verifying-markdown-formatting`](resources/verifying-markdown-formatting/SKILL.md) - Verify headings, lists, links, code blocks, spacing, and style consistency in Markdown files.
 - [`fixing-broken-links`](resources/fixing-broken-links/SKILL.md) - Crawl all URLs in a file, test each for HTTP 200, and fix or replace any broken links.
 - [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Security harness that intercepts tool calls in AI coding agents before files change or network is contacted.
-- [`penthera`](https://github.com/danoszz/penthera/tree/main/skills/penthera) - Security scanner for web apps covering TLS, headers, auth hardening, secret scanning, IDOR/OAuth, and injection probes, with OWASP-mapped findings and SARIF output. Runs as a Cursor skill or CLI for authorized testing only.
+- [`penthera`](https://github.com/danoszz/penthera/tree/main/skills/penthera)
+- [`alibaba-java-coding-guidelines-en`](resources/alibaba-java-coding-guidelines-en/SKILL.md) - Enforce the official English Alibaba Java Coding Guidelines — 181 rules for naming, constants, formatting, OOP, collections, concurrency, exceptions, logging, MySQL, project structure, and security — during Java coding and reviews.
+
+- [`alibaba-java-coding-guidelines-en`](resources/alibaba-java-coding-guidelines-en/SKILL.md) - Enforce the official English Alibaba Java Coding Guidelines — 181 rules for naming, constants, formatting, OOP, collections, concurrency, exceptions, logging, MySQL, project structure, and security — during Java coding and reviews.
+ - Security scanner for web apps covering TLS, headers, auth hardening, secret scanning, IDOR/OAuth, and injection probes, with OWASP-mapped findings and SARIF output. Runs as a Cursor skill or CLI for authorized testing only.
 
 ### Dependencies
 
