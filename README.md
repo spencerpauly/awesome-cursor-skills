@@ -127,6 +127,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`vercel-react-view-transitions`](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions) - Implement the View Transitions API in React/Next.js for smooth page and component animations.
 - [`vercel-composition-patterns`](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) - Component composition, code splitting, and server/client boundary patterns for Next.js.
 - [`react-native-patterns`](resources/react-native-patterns/SKILL.md) - Build mobile apps with React Native and Expo — navigation, platform-specific code, performance, and native modules.
+- [`honest-dataviz`](https://github.com/dylnbaker15/Claude-Skills-For-Business-Intelligence/tree/main/honest-dataviz) - Decide whether it should be a chart at all, then fix form, colour and type so the result reads at a glance, survives a colour-blind reviewer, and implies no more certainty than the data has.
 
 ### Planning & Architecture
 
