@@ -218,6 +218,7 @@ Cursor Rules (`.cursorrules` / `.cursor/rules/`) are complementary to skills —
 - [Cursor Marketplace](https://cursor.com/marketplace) - Browse and install official plugins with bundled skills.
 - [Agent Skills Specification](https://agentskills.io) - The open standard for defining agent capabilities.
 - [Deep Dive SKILL.md](https://abvijaykumar.medium.com/deep-dive-skill-md-part-1-2-09fc9a536996) - In-depth walkthrough of the SKILL.md format.
+- [first-principles-learning](https://github.com/zhyyhz7785/first-principles-learning) - Rebuild a subject with 15 first-principles questions, then a single-point deep dive.
 
 ### Directories
 
