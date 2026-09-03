@@ -55,6 +55,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 
 - [`adding-analytics`](resources/adding-analytics/SKILL.md) - Add PostHog event tracking, page views, feature flags, and session replay to any web app.
 - [`adding-feature-flags`](resources/adding-feature-flags/SKILL.md) - Add feature flags for gradual rollouts and A/B testing using PostHog or a simple local implementation.
+- [`agent-kill-switch`](https://github.com/vivekchand/clawmetry/tree/main/skills/agent-kill-switch) - Install ClawMetry to see what the coding agents on the machine are doing and spending, stop one session on request, and hold risky tool calls for approval ([website](https://clawmetry.com)).
 - [`posthog-llm-analytics`](https://github.com/PostHog/skills/tree/main/skills/posthog/llm-analytics) - Instrument LLM calls with token usage, latency, cost tracking, and model comparison.
 - [`posthog-migrations`](https://github.com/PostHog/skills/tree/main/skills/posthog/migrations) - Migrate from other analytics providers (Amplitude, Mixpanel, GA) to PostHog.
 
