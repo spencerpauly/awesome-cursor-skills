@@ -225,6 +225,7 @@ Cursor Rules (`.cursorrules` / `.cursor/rules/`) are complementary to skills —
 - [skills.sh](https://skills.sh/) - Leaderboard and directory for popular skill repositories.
 - [AgentDepot.dev](https://agentdepot.dev/) - Open-source explorer for agents, skills, and rules.
 - [CursorDirectory](https://cursor.directory/) - Community directory for Cursor rules and configurations.
+- [n3wth/skills](https://github.com/n3wth/skills) - AI coding assistant skills with a live registry at skills.n3wth.com.
 
 ### Tools
 
