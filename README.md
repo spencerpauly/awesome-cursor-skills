@@ -85,6 +85,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`incident-response`](resources/incident-response/SKILL.md) - Handle production incidents — triage severity, mitigate, communicate status, and write blameless postmortems.
 - [`systematic-debugging`](resources/systematic-debugging/SKILL.md) - Structured debugging methodology — reproduce, isolate, hypothesize, and verify using git bisect, binary search, and logging.
 - [`chatcrystal`](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills) - Local-first memory recall and writeback skills for AI coding sessions via ChatCrystal Core and MCP.
+- [`orca-replay`](https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay) - Answer "why did the last run do that" from the recording rather than from memory — read the trace, replay the run offline, or fork it onto another model.
 
 ### Infrastructure & DevOps
 
