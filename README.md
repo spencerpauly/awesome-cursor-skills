@@ -94,6 +94,8 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`antonbabenko-terraform`](https://github.com/antonbabenko/terraform-skill) - Terraform and OpenTofu skill — testing, modules, CI/CD, and production patterns.
 - [`kubernetes-deploying`](resources/kubernetes-deploying/SKILL.md) - Deploy to Kubernetes — Deployments, Services, Ingress, ConfigMaps, health checks, and autoscaling.
 
+- [`cohesivity`](https://github.com/cohesivity-org/cohesivity-plugin/tree/main/skills/cohesivity) - cohesivity.ai offers free agent native backend services. Anonymous account (no-signup) to get started through MCP or API. Hosting, postgres, email, storage, containers, LLMs, voice and third-party APIs. Includes free tiers and 5 USD/mo in AI and Search credits. Top-ups through x402.
+
 ### Code Quality & Security
 
 - [`reviewing-code`](resources/reviewing-code/SKILL.md) - Thorough code review focused on correctness, maintainability, performance, and best practices.
