@@ -231,6 +231,7 @@ Cursor Rules (`.cursorrules` / `.cursor/rules/`) are complementary to skills —
 - [npx skills](https://github.com/vercel-labs/skills) - CLI to search, install, and manage skills.
 - [PostHog/context-mill](https://github.com/PostHog/context-mill) - Assemble context for AI agents into Agent Skills-compliant packages.
 - [Anthropic Skill Creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) - Official skill for drafting, testing, and optimizing custom SKILL.md files.
+- [dsh-skills-anywhere](https://github.com/noteflowai/dsh-skills-anywhere) - MCP server that serves skills already installed for Cursor, Claude Code, Codex and 60+ agents, plus any GitHub skills repo, without copying or symlinking them.
 
 ---
 
