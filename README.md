@@ -157,6 +157,15 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`writing-copy`](resources/writing-copy/SKILL.md) - Write marketing copy for landing pages, CTAs, emails, microcopy, and product descriptions.
 - [`concise`](https://github.com/Cpp1022/concise) - Chinese-first concise mode skill. Compresses Cursor agent replies on two layers (expression + content) with auto-relax for safety, multi-step, and parameter-heavy cases. Works across Cursor, Claude Code, and Codex CLI.
 
+### Business & Marketing
+
+Skills for the non-engineering half of shipping a product — deciding what to market, where to get customers, and how to launch. Pure reasoning skills: no scripts, no API keys, no credentials.
+
+- [`marketing-mindset`](https://github.com/axelfreeman/marketing-mindset) - A marketer's decision framework: declare the volume floor before a test can be judged, kill rules for channels, positioning, offers, and cold outreach. Gives the agent an opinion instead of a template.
+- [`dublicator`](https://github.com/axelfreeman/dublicator) - Fork a product's existing marketing into a new profile, audience, or language layer, then test whether the same offer converts through a different pattern.
+- [`releazer-67`](https://github.com/axelfreeman/releazer-67) - Turn shipped code into launch marketing — scan git history, PRs, and diffs to draft release notes, launch posts, media pitches, and ad copy.
+- [`voice-to-article`](https://github.com/axelfreeman/voice-to-article) - Voice memo to SEO article pipeline — transcription, structure extraction, semantic research, and HTML output with Article and FAQPage schema.
+
 ## Plugins
 
 Official Cursor marketplace plugins with bundled skills. Install via **Cursor Settings > Plugins**.
