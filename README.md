@@ -76,6 +76,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`mattpocock-tdd`](https://github.com/mattpocock/skills/tree/main/tdd) - Vertical-slice TDD for AI agents — one test, one implementation, repeat. Prevents over-engineering and speculative tests.
 - [`anthropic-webapp-testing`](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) - Automated browser testing for web apps with screenshot verification and interaction flows.
 - [`api-smoke-testing`](resources/api-smoke-testing/SKILL.md) - Discover API routes from the codebase, hit every endpoint, and report which ones return errors.
+- [`oneroster-csv-validator`](https://github.com/wwewtech/oneroster-csv-validator) - 1EdTech / IMS Global OneRoster 1.1/1.2 CSV relational validator, cross-table foreign key integrity checker, and roster audit engine.
 
 ### Workflow
 
