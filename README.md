@@ -76,6 +76,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`mattpocock-tdd`](https://github.com/mattpocock/skills/tree/main/tdd) - Vertical-slice TDD for AI agents — one test, one implementation, repeat. Prevents over-engineering and speculative tests.
 - [`anthropic-webapp-testing`](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) - Automated browser testing for web apps with screenshot verification and interaction flows.
 - [`api-smoke-testing`](resources/api-smoke-testing/SKILL.md) - Discover API routes from the codebase, hit every endpoint, and report which ones return errors.
+- [`isitdone`](https://github.com/raimondasl/isitdone) - Run the repository's real test, typecheck and lint commands on the exact working tree and get DONE or NOT DONE with the failing output before claiming completion; pairs with a Cursor `stop` hook that blocks a false "done".
 
 ### Workflow
 
