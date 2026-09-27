@@ -137,6 +137,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`architecture-decision-records`](resources/architecture-decision-records/SKILL.md) - Document technical decisions as ADRs with context, options considered, and rationale.
 - [`database-design`](resources/database-design/SKILL.md) - Design database schemas — tables, relationships, indexes, constraints, and ORM setup.
 - [`@hanv89/azure-arch-skill`](https://github.com/hanv89/azure-icons-for-architecture-diagrams) - Draw Microsoft Azure and Microsoft Fabric architecture diagrams in PlantUML with `<img:URL>` references to 840 first-party-MIT icons; per-vendor `INDEX.md` lets the agent grep by name/tag instead of guessing filenames. Install: `npx @hanv89/azure-arch-skill@latest install --agent=cursor` (per-project install into `<cwd>/.cursor/rules/`).
+- [`intent-router`](https://github.com/angel291592/Intent-Router) - Turn a vague request into a typed IntentSpec before the agent acts: it looks up what the repo already answers, asks only preference or irreversible questions one at a time, flags a request that reads two ways, contradicts itself or rests on a premise the repo rules out, and checks the delivered work against the spec. Install: `npx skills add angel291592/Intent-Router`.
 
 ### Documentation
 
