@@ -201,6 +201,7 @@ Official Cursor marketplace plugins with bundled skills. Install via **Cursor Se
 - [Plain](https://cursor.com/cn/marketplace/plain) - Support threads, customer management, and help center articles.
 - [Turbopuffer](https://cursor.com/cn/marketplace/turbopuffer) - Vector and full-text search database integration.
 - [Superpower Builder](https://github.com/redhuntlabs/superpower-builder) - Interview-driven meta-builder that turns recurring tasks into reusable `SKILL.md` files, routed by kind (workflow, discipline, content, subagent) with baseline-vs-with-skill pressure-testing on each generated skill. Ships 25 bundled superpowers covering dev (TDD, plan/execute) and non-dev (research, writing, decisions) work. Installs via Cursor plugin descriptor (`.cursor-plugin/plugin.json`).
+- [kenji skills](https://github.com/kensaurus/skills) - Ready-made playbooks your coding agent auto-triggers (158 skills, 63 commands) for Cursor, Claude Code, Codex, and Gemini. Install with `npx @kensaurus/skills --all` or `npx skills add kensaurus/skills`. Ships a Cursor plugin descriptor (`.cursor-plugin/plugin.json`).
 
 ## Cursor Resources
 
