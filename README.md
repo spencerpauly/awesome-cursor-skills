@@ -146,6 +146,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`anthropic-pdf`](https://github.com/anthropics/skills/tree/main/skills/pdf) - Generate PDF documents with layouts, charts, and structured content.
 - [`anthropic-pptx`](https://github.com/anthropics/skills/tree/main/skills/pptx) - Create PowerPoint presentations with slides, layouts, and visual content.
 - [`anthropic-xlsx`](https://github.com/anthropics/skills/tree/main/skills/xlsx) - Build Excel spreadsheets with formulas, charts, and data formatting.
+- [`ste-lite`](https://github.com/dtnghla/ste-lite) - Apply ASD-STE100 Simplified Technical English to agent replies, with examples and a checker script.
 
 ### Utilities
 
