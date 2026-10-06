@@ -94,6 +94,8 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`antonbabenko-terraform`](https://github.com/antonbabenko/terraform-skill) - Terraform and OpenTofu skill — testing, modules, CI/CD, and production patterns.
 - [`kubernetes-deploying`](resources/kubernetes-deploying/SKILL.md) - Deploy to Kubernetes — Deployments, Services, Ingress, ConfigMaps, health checks, and autoscaling.
 
+- [Shipvela Publish](https://github.com/stefanautomateed/shipvela-codex/tree/main/plugins/shipvela/skills/publish) - Publish static websites through an OAuth MCP connection with owner review of staged files, then inspect deployment status and logs; requires a Shipvela account (Hobby: 3 projects and 20 publishes/month).
+
 ### Code Quality & Security
 
 - [`reviewing-code`](resources/reviewing-code/SKILL.md) - Thorough code review focused on correctness, maintainability, performance, and best practices.
