@@ -127,6 +127,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`vercel-react-view-transitions`](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions) - Implement the View Transitions API in React/Next.js for smooth page and component animations.
 - [`vercel-composition-patterns`](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) - Component composition, code splitting, and server/client boundary patterns for Next.js.
 - [`react-native-patterns`](resources/react-native-patterns/SKILL.md) - Build mobile apps with React Native and Expo — navigation, platform-specific code, performance, and native modules.
+- [`bestax-skills`](https://github.com/allxsmith/bestax/tree/main/skills) - Build React apps with Bestax on Bulma v1: forms, page layouts, theming and dark mode, icons, CSS size, and migration from older React Bulma libraries.
 
 ### Planning & Architecture
 
