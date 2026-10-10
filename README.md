@@ -109,6 +109,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`fixing-broken-links`](resources/fixing-broken-links/SKILL.md) - Crawl all URLs in a file, test each for HTTP 200, and fix or replace any broken links.
 - [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Security harness that intercepts tool calls in AI coding agents before files change or network is contacted.
 - [`penthera`](https://github.com/danoszz/penthera/tree/main/skills/penthera) - Security scanner for web apps covering TLS, headers, auth hardening, secret scanning, IDOR/OAuth, and injection probes, with OWASP-mapped findings and SARIF output. Runs as a Cursor skill or CLI for authorized testing only.
+- [`reverse-engineer-anything`](https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything) - Investigate shipped binaries and JavaScript/Electron apps with REA CLI/MCP evidence; install REA separately and bring Hopper, Ghidra, or IDA for deep native analysis.
 
 ### Dependencies
 
