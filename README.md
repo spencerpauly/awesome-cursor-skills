@@ -85,6 +85,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`incident-response`](resources/incident-response/SKILL.md) - Handle production incidents — triage severity, mitigate, communicate status, and write blameless postmortems.
 - [`systematic-debugging`](resources/systematic-debugging/SKILL.md) - Structured debugging methodology — reproduce, isolate, hypothesize, and verify using git bisect, binary search, and logging.
 - [`chatcrystal`](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills) - Local-first memory recall and writeback skills for AI coding sessions via ChatCrystal Core and MCP.
+- [`session-handoff`](https://github.com/alapha888/session-handoff-kit) - End a coding session with a structured handoff note — goal state, decisions and why, files touched, open loops, and one next action — so the next session starts from verified state instead of an overfull context.
 
 ### Infrastructure & DevOps
 
