@@ -156,6 +156,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`seo-analysis`](https://github.com/nowork-studio/toprank/blob/main/seo/seo-analysis/SKILL.md) - Full SEO audit using Search Console, URL inspection, PageSpeed, technical crawling, metadata checks, schema review, and a prioritized 30-day action plan.
 - [`writing-copy`](resources/writing-copy/SKILL.md) - Write marketing copy for landing pages, CTAs, emails, microcopy, and product descriptions.
 - [`concise`](https://github.com/Cpp1022/concise) - Chinese-first concise mode skill. Compresses Cursor agent replies on two layers (expression + content) with auto-relax for safety, multi-step, and parameter-heavy cases. Works across Cursor, Claude Code, and Codex CLI.
+- [`make-parts-now`](https://github.com/makepartsnow/skills/tree/main/skills/make-parts-now) - Export CAD from the project, get instant 3D printing and CNC machining quotes from Make Parts Now, and open a checkout link.
 
 ## Plugins
 
