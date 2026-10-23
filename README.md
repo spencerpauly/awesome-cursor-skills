@@ -67,6 +67,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`adding-auth`](resources/adding-auth/SKILL.md) - Add OAuth login, session management, and protected routes with Auth.js (NextAuth).
 - [`adding-stripe`](resources/adding-stripe/SKILL.md) - Integrate Stripe checkout, subscriptions, webhooks, and customer portal.
 - [`authsome`](https://github.com/agentrhq/authsome) - Local credential broker for AI agents. Log in once via OAuth2 or API key, encrypted vault stores credentials, local proxy injects them at request time so Cursor's agent never sees raw secrets. 45 providers bundled including GitHub, Google, OpenAI, Linear, Slack, Notion, Resend, Stripe.
+- [`doomsday-proof-of-escrow`](https://github.com/doomsday-network/doomsday) - Sovereign client-side secp256k1 Layer-1 DOOM payments, replay-proof invoices, and Base Mainnet wDOOM Proof-of-Escrow verification for coding agents.
 
 ### Testing
 
@@ -98,6 +99,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 
 - [`reviewing-code`](resources/reviewing-code/SKILL.md) - Thorough code review focused on correctness, maintainability, performance, and best practices.
 - [`auditing-security`](resources/auditing-security/SKILL.md) - Systematic security audit checking for OWASP Top 10 vulnerabilities, secrets exposure, and insecure patterns.
+- [`bounty-guard`](https://github.com/doomsday-network/bounty-guard) - Pre-flight GitHub bounty scanner and prompt-injection honeypot firewall classifying issues as SAFE_WITH_ESCROW, SAFE_NO_ESCROW, or QUARANTINE.
 - [`auditing-performance`](resources/auditing-performance/SKILL.md) - Audit bundle size, rendering, database queries, and Core Web Vitals.
 - [`sentry-code-simplifier`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/code-simplifier) - Refactor for clarity, consistency, and maintainability — eliminates dead code, fixes naming, and reduces complexity.
 - [`sentry-find-bugs`](https://github.com/getsentry/skills/tree/main/plugins/sentry-skills/skills/find-bugs) - Scan local branch changes for bugs, security vulnerabilities, and code quality issues.
