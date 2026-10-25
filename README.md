@@ -57,6 +57,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`adding-feature-flags`](resources/adding-feature-flags/SKILL.md) - Add feature flags for gradual rollouts and A/B testing using PostHog or a simple local implementation.
 - [`posthog-llm-analytics`](https://github.com/PostHog/skills/tree/main/skills/posthog/llm-analytics) - Instrument LLM calls with token usage, latency, cost tracking, and model comparison.
 - [`posthog-migrations`](https://github.com/PostHog/skills/tree/main/skills/posthog/migrations) - Migrate from other analytics providers (Amplitude, Mixpanel, GA) to PostHog.
+- [Mode VC Radar MCP](https://modevc.com/api/mcp) - Read-only venture capital & AI market research MCP server (39 empirical AI charts, 3,650 VC firms, SEC Form D filings, and 18 founder financial calculators; free Streamable HTTP at https://modevc.com/api/mcp).
 
 ### Error Tracking & Monitoring
 
