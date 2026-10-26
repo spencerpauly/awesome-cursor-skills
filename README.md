@@ -57,6 +57,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`adding-feature-flags`](resources/adding-feature-flags/SKILL.md) - Add feature flags for gradual rollouts and A/B testing using PostHog or a simple local implementation.
 - [`posthog-llm-analytics`](https://github.com/PostHog/skills/tree/main/skills/posthog/llm-analytics) - Instrument LLM calls with token usage, latency, cost tracking, and model comparison.
 - [`posthog-migrations`](https://github.com/PostHog/skills/tree/main/skills/posthog/migrations) - Migrate from other analytics providers (Amplitude, Mixpanel, GA) to PostHog.
+- [open-finance-skills](https://github.com/levelcfo/open-finance-skills) - 20 accounting, financial modeling, ASC 606/330, and month-end close verification skills for Cursor and Claude Code ([Docs](https://levelcfo.com/finance-systems/)).
 
 ### Error Tracking & Monitoring
 
