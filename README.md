@@ -211,6 +211,7 @@ Cursor Rules (`.cursorrules` / `.cursor/rules/`) are complementary to skills —
 - [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - The most comprehensive collection of `.cursorrules` files, categorized by framework and language.
 - [sanjeed5/awesome-cursor-rules-mdc](https://github.com/sanjeed5/awesome-cursor-rules-mdc) - Curated `.mdc` format rules with a generator tool.
 - [tugkanboz/awesome-cursorrules](https://github.com/tugkanboz/awesome-cursorrules) - Showcases modern Cursor Rules system with MDC format.
+- [mahmoudsajjadi/awesome-ai-coding-tools](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools) - 3-tier taxonomy of coding agents, prompt rules (.cursorrules, AGENTS.md, CLAUDE.md), MCP servers, and local GPU VRAM calculators.
 
 ### Learning
 
