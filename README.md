@@ -93,6 +93,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`setting-up-terraform`](resources/setting-up-terraform/SKILL.md) - Infrastructure-as-code with provider config, modules, remote state, and CI integration.
 - [`antonbabenko-terraform`](https://github.com/antonbabenko/terraform-skill) - Terraform and OpenTofu skill — testing, modules, CI/CD, and production patterns.
 - [`kubernetes-deploying`](resources/kubernetes-deploying/SKILL.md) - Deploy to Kubernetes — Deployments, Services, Ingress, ConfigMaps, health checks, and autoscaling.
+- [`flisk`](https://github.com/flisk-sh/flisk/tree/main/plugins/flisk) - Build a whole app (an online shop, a website, a booking app, an AI helper) and run it on your own computer with one command, using skills and an MCP server. Cursor plugin format; made by the Flisk team.
 
 ### Code Quality & Security
 
