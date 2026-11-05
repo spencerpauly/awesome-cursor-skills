@@ -93,6 +93,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`setting-up-terraform`](resources/setting-up-terraform/SKILL.md) - Infrastructure-as-code with provider config, modules, remote state, and CI integration.
 - [`antonbabenko-terraform`](https://github.com/antonbabenko/terraform-skill) - Terraform and OpenTofu skill — testing, modules, CI/CD, and production patterns.
 - [`kubernetes-deploying`](resources/kubernetes-deploying/SKILL.md) - Deploy to Kubernetes — Deployments, Services, Ingress, ConfigMaps, health checks, and autoscaling.
+- [SuprSend](https://github.com/suprsend/agent-plugin) - Build and manage notification workflows, templates and preferences across email, SMS, push, in-app and chat.
 
 ### Code Quality & Security
 
