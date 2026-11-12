@@ -76,6 +76,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`mattpocock-tdd`](https://github.com/mattpocock/skills/tree/main/tdd) - Vertical-slice TDD for AI agents — one test, one implementation, repeat. Prevents over-engineering and speculative tests.
 - [`anthropic-webapp-testing`](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) - Automated browser testing for web apps with screenshot verification and interaction flows.
 - [`api-smoke-testing`](resources/api-smoke-testing/SKILL.md) - Discover API routes from the codebase, hit every endpoint, and report which ones return errors.
+- [`ghost-qa`](https://github.com/avivgerz-hue/ghost-qa) - Headless Playwright browser QA skill and CLI that crawls running web apps across desktop, tablet, and mobile viewports to detect console/network errors, layout collisions, accessibility traps, and theme parity issues.
 
 ### Workflow
 
