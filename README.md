@@ -93,6 +93,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`setting-up-terraform`](resources/setting-up-terraform/SKILL.md) - Infrastructure-as-code with provider config, modules, remote state, and CI integration.
 - [`antonbabenko-terraform`](https://github.com/antonbabenko/terraform-skill) - Terraform and OpenTofu skill — testing, modules, CI/CD, and production patterns.
 - [`kubernetes-deploying`](resources/kubernetes-deploying/SKILL.md) - Deploy to Kubernetes — Deployments, Services, Ingress, ConfigMaps, health checks, and autoscaling.
+- [PlayDrop](https://github.com/playdrop-ai/playdrop-plugin) - Publish a browser game from your AI agent and get a link that plays on any phone or computer.
 
 ### Code Quality & Security
 
