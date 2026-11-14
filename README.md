@@ -225,6 +225,7 @@ Cursor Rules (`.cursorrules` / `.cursor/rules/`) are complementary to skills —
 - [skills.sh](https://skills.sh/) - Leaderboard and directory for popular skill repositories.
 - [AgentDepot.dev](https://agentdepot.dev/) - Open-source explorer for agents, skills, and rules.
 - [CursorDirectory](https://cursor.directory/) - Community directory for Cursor rules and configurations.
+- [Ballet](https://github.com/brainfish-ai/ballet-agent-plugins) - Plugin marketplace with 7 Ballet skills and the Ballet MCP server, for Cursor, Claude Code, and Codex.
 
 ### Tools
 
