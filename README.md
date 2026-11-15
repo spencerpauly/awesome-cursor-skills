@@ -127,7 +127,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`vercel-react-view-transitions`](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions) - Implement the View Transitions API in React/Next.js for smooth page and component animations.
 - [`vercel-composition-patterns`](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) - Component composition, code splitting, and server/client boundary patterns for Next.js.
 - [`react-native-patterns`](resources/react-native-patterns/SKILL.md) - Build mobile apps with React Native and Expo — navigation, platform-specific code, performance, and native modules.
-- [`telegram-bot-ui`](https://github.com/hlibsuslov/telegram-bot-ui) - Design, build and operate Telegram bots on Bot API 10.4 — keyboards, Stop-able streaming AI replies, Rich Messages, HTML widgets, premium emoji, channel publishing, Stars payments and an offline Bot API catalog.
+- [`telegram-bot-ui`](https://github.com/hlibsuslov/telegram-bot-ui) - UI/UX skill for Telegram bots: better messages, keyboards, buttons, navigation, streaming AI replies, Rich Messages, HTML widgets and premium emoji; kept up to date with every new Bot API release.
 
 ### Planning & Architecture
 
