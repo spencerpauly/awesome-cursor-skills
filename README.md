@@ -147,6 +147,8 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`anthropic-pptx`](https://github.com/anthropics/skills/tree/main/skills/pptx) - Create PowerPoint presentations with slides, layouts, and visual content.
 - [`anthropic-xlsx`](https://github.com/anthropics/skills/tree/main/skills/xlsx) - Build Excel spreadsheets with formulas, charts, and data formatting.
 
+- [`humanpen-skill`](https://github.com/humanpen/humanpen-skill) - Agent skill for document translation, citation conversion, condensation, and rewriting through the credit-based HumanPen API.
+
 ### Utilities
 
 - [`exporting-to-png`](resources/exporting-to-png/SKILL.md) - Export code snippets, diagrams, terminal output, or UI components to PNG images via headless browser or CLI tools.
