@@ -156,6 +156,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`seo-analysis`](https://github.com/nowork-studio/toprank/blob/main/seo/seo-analysis/SKILL.md) - Full SEO audit using Search Console, URL inspection, PageSpeed, technical crawling, metadata checks, schema review, and a prioritized 30-day action plan.
 - [`writing-copy`](resources/writing-copy/SKILL.md) - Write marketing copy for landing pages, CTAs, emails, microcopy, and product descriptions.
 - [`concise`](https://github.com/Cpp1022/concise) - Chinese-first concise mode skill. Compresses Cursor agent replies on two layers (expression + content) with auto-relax for safety, multi-step, and parameter-heavy cases. Works across Cursor, Claude Code, and Codex CLI.
+- [`last30days`](https://github.com/mvanhorn/last30days-skill/blob/main/skills/last30days/SKILL.md) - Research any topic across Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web from the last 30 days, ranked by real engagement, and get one cited brief. Install with `npx skills add mvanhorn/last30days-skill -g -a cursor`.
 
 ## Plugins
 
