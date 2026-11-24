@@ -127,6 +127,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`vercel-react-view-transitions`](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions) - Implement the View Transitions API in React/Next.js for smooth page and component animations.
 - [`vercel-composition-patterns`](https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns) - Component composition, code splitting, and server/client boundary patterns for Next.js.
 - [`react-native-patterns`](resources/react-native-patterns/SKILL.md) - Build mobile apps with React Native and Expo — navigation, platform-specific code, performance, and native modules.
+- [`a1-design-reference`](https://github.com/a1-gallery/a1-mcp/tree/main/skills/design-reference) - Answer type scale, spacing and palette questions with values measured off 1,150+ real websites, through the A1 MCP server (free account); ships as a Cursor plugin.
 
 ### Planning & Architecture
 
