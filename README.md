@@ -187,6 +187,7 @@ Official Cursor marketplace plugins with bundled skills. Install via **Cursor Se
 - [Cloudinary](https://cursor.com/cn/marketplace/cloudinary) - (`cloudinary-docs`, `cloudinary-transformations`) Media management and optimization.
 - [Appwrite](https://cursor.com/cn/marketplace/appwrite) - (`appwrite-cli`, `appwrite-web` + 8 more) BaaS with database, auth, and storage.
 - [ClickUp](https://cursor.com/cn/marketplace/clickup) - Task management, time tracking, and collaboration via MCP.
+- [Sequenzy](https://cursor.com/marketplace/sequenzy) - (`sequenzy-email-marketing`) Lifecycle email marketing, campaigns, automated sequences, transactional email, and analytics via hosted OAuth MCP.
 - [Box](https://cursor.com/cn/marketplace/box) - (`box`) Content management, AI Q&A, and extraction.
 - [Chargebee](https://cursor.com/cn/marketplace/chargebee) - (`chargebee-integration`) Billing operations and webhook handling.
 - [Circle](https://cursor.com/cn/marketplace/circle) - (`bridge-stablecoin`, `use-circle-wallets` + 7 more) Stablecoin payments and smart contracts.
