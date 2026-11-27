@@ -156,6 +156,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 - [`seo-analysis`](https://github.com/nowork-studio/toprank/blob/main/seo/seo-analysis/SKILL.md) - Full SEO audit using Search Console, URL inspection, PageSpeed, technical crawling, metadata checks, schema review, and a prioritized 30-day action plan.
 - [`writing-copy`](resources/writing-copy/SKILL.md) - Write marketing copy for landing pages, CTAs, emails, microcopy, and product descriptions.
 - [`concise`](https://github.com/Cpp1022/concise) - Chinese-first concise mode skill. Compresses Cursor agent replies on two layers (expression + content) with auto-relax for safety, multi-step, and parameter-heavy cases. Works across Cursor, Claude Code, and Codex CLI.
+- [`feraterra-trading`](https://github.com/FeraTerra/feraterra-sdk/tree/main/skills/feraterra-trading) - Onboard wallets, preview cross-margin orders, quote with mark pegs, execute zero-capital arbitrage, and verify cryptographic ledger tips on FeraTerra / Arena Exchange via a 24-tool MCP gateway, Python SDK, or C++23 HFT binary wire.
 
 ## Plugins
 
