@@ -96,6 +96,7 @@ Skills that harness Cursor's unique agent capabilities — things only an AI ins
 
 ### Code Quality & Security
 
+- [Insomnia Security Plugin & Skill](https://github.com/vulnz/insomnia-mcp) - Claude Code / Cursor / Antigravity security plugin & MCP server delivering 160 SAST/taint, live secret validation, SCA/SBOM, Web DAST, OSINT, and 21,100+ 1-Day CVE verification tools (`https://mcp.insom.ai/mcp`, 50 free credits).
 - [`reviewing-code`](resources/reviewing-code/SKILL.md) - Thorough code review focused on correctness, maintainability, performance, and best practices.
 - [`auditing-security`](resources/auditing-security/SKILL.md) - Systematic security audit checking for OWASP Top 10 vulnerabilities, secrets exposure, and insecure patterns.
 - [`auditing-performance`](resources/auditing-performance/SKILL.md) - Audit bundle size, rendering, database queries, and Core Web Vitals.
